@@ -1,0 +1,282 @@
+
+body{
+    background-color: white;
+    color: white;
+    width: fit-content;
+}
+header{
+   
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+
+.menu-bar{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin:0;
+    padding: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.home-icon{
+    height: 50px;
+    width: 50px;
+    padding-left: 0%;
+    padding-top: 15px;
+}
+.menu-list{
+    text-align: right;
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    list-style-type: none;
+    padding-top: 0;
+     padding-left: 30vh;
+
+}
+
+.menu-list a{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    text-underline-position: auto;
+    color: brown;
+    display: block;
+    text-decoration: none;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.menu-list li a::after{
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background: var(--black-color);
+    transition: all 300ms ease-in-out;
+}
+.menu-list li a:hover{
+    background-color: var(--gray-color);
+}
+
+.menu-list li a:hover::after{
+    width: 50%;
+    left: 25%;
+}
+
+
+.menu-item{
+    color: red;
+}
+.Anime{
+    /* padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 210px; */
+    font-size: 20px;
+    font-family:serif;
+    width:100%;
+    height: auto;
+    padding: 10px;
+    background-color: black;
+}
+.Anime h1{
+   font-size:  50px;
+}
+.Animecontent1{
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 210px;
+}
+.Anime img{
+    height: 300px;
+    width: 990px;
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 210px;
+
+
+}
+.Animecontent2{
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 210px;
+}
+.top3Studio{
+    background-color: gray;
+    /* padding-left: 250px;
+    padding-right: 210px; */
+    font-size: 20px;
+    font-family:serif;
+    padding: 10px;
+    width: 100%;
+    
+}
+.top3Studio h1{
+    text-align: center;
+    font-size: 50px;
+}
+.top3Studiocontent1{
+    padding-left: 250px;
+    padding-right: 210px;
+    display: flex;
+    gap: 30px;
+}
+
+.top3Studiocontent1 img{
+    height: 70px;
+}
+
+.top3Studiocontent2 img{
+    height: 70px;
+}
+.top3Studiocontent3 img{
+    height: 70px;
+}
+
+
+.top3Studiocontent2{
+    padding-left: 250px;
+    padding-right: 210px;
+    display: flex;
+    gap: 40px;  
+}
+
+.top3Studiocontent3{
+    padding-left: 250px;
+    padding-right: 210px;
+    display: flex;
+    gap: 30px;
+}
+
+.top3Studio h3{
+    padding-left: 250px;
+    padding-right: 210px;
+    font-size: 40px;
+}
+.row1{
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 210px;
+    display: flex;
+    
+}
+
+.gallery{
+    /* padding-left: 150px;
+    padding-right: 210px; */
+    background-color:dimgrey;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    width: 100%;
+    padding: 10px;
+
+}
+.gallery h1{
+    font-size: 50px;
+    text-align: center;
+}
+.galleryitem{
+    padding-top: 3px;
+    padding-left: 250px;
+}
+.galleryitem img{
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 5px;
+    
+    transition: all 300ms ease-in-out;
+}
+.gallery img:hover{
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+}
+.row2{
+    padding-top: 30px;
+    padding-left: 250px;
+    padding-right: 210px;
+    display: flex;
+}
+.contato-form .form-grid {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 3rem;
+}
+
+form{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.form-group {
+    flex: 1 1 32rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    border: none;
+    background: white;
+    padding: 1rem .1rem;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 0.7rem;
+    margin-left: 10px;
+    
+    /* margin-right: 100px; */
+}
+fieldset{
+    padding-top: 10px;
+    padding-left: 250px;
+    padding-right: 210px;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+.form-group button {
+    border: 0.5rem solid white;
+    background: none;
+    color: white;
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover {
+    background: var(--primary-color);
+    color: var(--darkgray-color);
+}
+
+.form-group::placeholder {
+    color: var(--gray-color);
+}
+
+.close-menu {
+    display: none;
+}
+
+
